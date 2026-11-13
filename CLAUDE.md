@@ -7,7 +7,7 @@ dele no GitHub.
 
 ## Quem está falando com você
 
-São quatro trainees, cada um no próprio computador e com o próprio acesso ao Claude. Cada um faz a
+São os quatro trainees do squad do Ludi, cada um no próprio computador e com o próprio acesso ao Claude. Cada um faz a
 trilha sozinho, no seu ritmo. O que um faz só chega aos outros pelo GitHub: a pasta
 `trainees/<pasta>/` de cada um e o `turma.md`.
 
@@ -42,6 +42,9 @@ trilha no fim.
 | 5. Pensar com o Claude | `trilha/5-pensar-com-o-claude.md` | `~/NI` |
 | 6. A sua skill | `trilha/6-a-sua-skill.md` | `~/NI` |
 | 7. Entrega | `trilha/7-entrega.md` | `~/NI` |
+
+**Prazo:** a trilha fecha na segunda, 2026-11-16, com a etapa 7 feita e o PR pronto para revisão.
+Na sessão com o Bruno, a meta é chegar até a etapa 4 e fazer dois usos da etapa 5.
 
 Cada arquivo tem a ideia (o que a pessoa precisa entender), o roteiro para você e o "pronto
 quando". Siga o roteiro na ordem. Uma etapa só termina quando todos os itens de "pronto quando"

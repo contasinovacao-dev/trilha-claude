@@ -1,6 +1,6 @@
 # Etapa 6: A sua skill
 
-**Tempo:** 15 minutos, durante a semana.
+**Tempo:** 15 minutos, até segunda, 16/11.
 **Você sai sabendo:** transformar um pedido que você repete num comando seu.
 
 ## A ideia

@@ -46,12 +46,12 @@ Daqui em diante, é com ele.
 | 2. O seu trabalho no GitHub | o ciclo branch, commit, push e pull request | 25 min |
 | 3. O Claude fora do VS Code | usar o Claude no navegador e no celular com o contexto do treinamento | 15 min |
 | 4. O seu espaço de trabalho | uma pasta por projeto, cada uma com as instruções dela | 20 min |
-| 5. Pensar com o Claude | os seis usos no treinamento, testados no seu card | 20 min na sessão, o resto na semana |
-| 6. A sua skill | transformar um pedido que você repete num comando seu | 15 min, na semana |
+| 5. Pensar com o Claude | os seis usos no treinamento, testados no seu card | 20 min na sessão, o resto até segunda, 16/11 |
+| 6. A sua skill | transformar um pedido que você repete num comando seu | 15 min, até 16/11 |
 | 7. Entrega | trazer o trabalho do time para a sua branch e resolver um conflito | 15 min |
 
-Na sessão com o Bruno, a ideia é chegar até a etapa 4 e fazer dois usos da etapa 5. O resto fica para
-a semana.
+Na sessão com o Bruno, a ideia é chegar até a etapa 4 e fazer dois usos da etapa 5. O resto, até a
+etapa 7 com o pull request pronto para revisão, vai até **segunda, 16/11**.
 
 ## O que ler
 

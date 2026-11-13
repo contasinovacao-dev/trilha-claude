@@ -1,6 +1,6 @@
 # Etapa 7: Entrega
 
-**Tempo:** 15 minutos.
+**Tempo:** 15 minutos. **Prazo:** segunda, 2026-11-16.
 **Você sai sabendo:** trazer o trabalho do time para a sua branch e resolver um conflito.
 
 ## A ideia

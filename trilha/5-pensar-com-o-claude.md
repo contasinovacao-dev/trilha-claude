@@ -1,6 +1,6 @@
 # Etapa 5: Pensar com o Claude
 
-**Tempo:** 20 minutos na sessão (dois usos); os outros quatro durante a semana.
+**Tempo:** 20 minutos na sessão (dois usos); os outros quatro até segunda, 16/11.
 **Você sai sabendo:** os seis usos do Claude no treinamento, cada um testado num trabalho seu de
 verdade.
 
@@ -24,17 +24,17 @@ estão em `guia/usos.md`.
 1. Mostre a tabela. Pergunte qual trabalho do treinamento ela tem agora (está em
    `~/NI/treinamento/CLAUDE.md`) e quais dois usos ela quer fazer na sessão. A escolha é dela.
 2. Para cada uso, rode a skill com material de verdade dela. Nada de exercício inventado: se ela não
-   tem material para aquele uso agora, escolha outro e deixe esse para a semana.
+   tem material para aquele uso agora, escolha outro e deixe esse para depois da sessão.
 3. Depois de cada uso, ela escreve uma entrada no `diario.md` da pasta dela na trilha: o que pediu,
    o que serviu, onde o Claude errou ou ela discordou, o que ela fez com isso. Ela escreve; você só
    arruma o formato se ela pedir. Se ela escrever que o Claude não errou, pergunte o que ela
    conferiu.
-4. Anote em `progresso.md` quais usos faltam para a semana.
+4. Anote em `progresso.md` quais usos faltam, para fazer até 16/11.
 5. Rode a skill `salvar` depois de cada entrada no diário.
 
-Nas próximas conversas da semana, quando ela fizer um uso que falta, lembre do diário no fim.
+Nas próximas conversas, até 16/11, quando ela fizer um uso que falta, lembre do diário no fim.
 
 ## Pronto quando
 
-- [ ] Seis entradas no diário, uma por uso, até a data da entrega combinada com o Bruno.
+- [ ] Seis entradas no diário, uma por uso, até segunda, 2026-11-16.
 - [ ] Cada entrada diz o que ela conferiu ou mudou no que o Claude trouxe.

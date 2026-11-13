@@ -15,7 +15,7 @@ ano. Trainee do Núcleo de Inovação (NI) da Poli Júnior, no treinamento 2026.
 
 ## A turma
 
-Somos quatro trainees, cada um com o próprio computador e o próprio Claude. Os nomes estão em
+Somos os quatro trainees do squad do Ludi, cada um com o próprio computador e o próprio Claude. Os nomes estão em
 `~/NI/trilha-claude/turma.md`. O que os outros fazem só chega aqui pelo GitHub. Não abra a pasta nem
 a branch de outro trainee.
 

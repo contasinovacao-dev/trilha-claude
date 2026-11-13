@@ -8,4 +8,6 @@
 - [ ] 6. A sua skill
 - [ ] 7. Entrega
 
+Entrega: segunda, 2026-11-16, com o PR fora do rascunho.
+
 O progresso detalhado está em `trainees/<pasta>/progresso.md`.

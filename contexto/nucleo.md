@@ -24,7 +24,8 @@ e da Poli Bridge.
 - O trabalho é em cards: cada um tem dupla, prazo de uma semana, critério de aceite e a métrica que
   empurra. Quem aceita o card é o PM do produto.
 - Ninguém fica com mais de dois cards abertos. O que travou vai nos comentários do card.
-- No squad do Ludi, os cards estão no ValidaNI, aba Treinamento.
+- Esta trilha é do squad do Ludi, cujo PM é o Bruno. Os cards do squad estão no ValidaNI, aba
+  Treinamento.
 
 ## Como o NI faz discovery
 
