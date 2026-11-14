@@ -117,10 +117,12 @@ o ok dela e diz qual é o próximo passo.
 | `skills/` | as seis skills de uso, que a etapa 4 instala em `~/.claude/skills/` |
 | `.claude/skills/` | `trilha` (retomar) e `salvar` (salvar e enviar), só da trilha |
 | `contexto/nucleo.md` | o NI, os produtos e como o treinamento funciona |
+| `contexto/ludi.md` | a aposta do Ludi (o departamento de estatística da escola pequena), o que já se sabe e o que o squad testa |
 | `trainees/<pasta>/` | perfil, progresso, diário e skill de cada trainee |
 | `turma.md` | uma linha por trainee |
 
 ## O NI
 
-Para ajudar no trabalho do treinamento, leia `contexto/nucleo.md`. O que estiver lá vale mais que o
-que você supõe sobre o NI. O card ou a tarefa da pessoa vale mais que os dois.
+Para ajudar no trabalho do treinamento, leia `contexto/nucleo.md`, e `contexto/ludi.md` quando o
+pedido for do Ludi (card, entrevista, CSD, roteiro). O que estiver lá vale mais que o que você supõe
+sobre o NI. O card ou a tarefa da pessoa vale mais que os dois.

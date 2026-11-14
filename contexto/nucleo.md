@@ -1,6 +1,6 @@
 # O NI, para o Claude
 
-Atualizado em 2026-11-12. Quem atualiza é o Bruno. O card ou a tarefa do trainee vale mais que este
+Atualizado em 2026-11-13. Quem atualiza é o Bruno. O card ou a tarefa do trainee vale mais que este
 arquivo.
 
 ## O que é
@@ -14,7 +14,7 @@ e da Poli Bridge.
 
 | Produto | O que é | Agora |
 | --- | --- | --- |
-| Ludi | transforma o resultado do simulado em relatório e próximo passo para cada aluno, para a escola e o aluno | discovery com escolas particulares independentes. Desde 2026-11-11, a frente é levar o Ludi às provas internas da escola (8º e 9º ano do fundamental, 1º e 2º do médio) e mapear outras dores da escola que virem funcionalidade |
+| Ludi | transforma o resultado da prova e do simulado em relatório e próximo passo para o aluno, o professor e a coordenação. Desde 2026-11-13, a aposta é ser o departamento de estatística da escola particular pequena ([ludi.md](ludi.md)) | discovery com escolas particulares independentes. Desde 2026-11-11, a frente é levar o Ludi às provas internas da escola (8º e 9º ano do fundamental, 1º e 2º do médio) e mapear outras dores da escola que virem funcionalidade |
 | MAISA | secretária no WhatsApp que conversa com o profissional e com os clientes dele e cuida da agenda | produto pronto; o foco é vender |
 | PLUM | responde a pergunta de quem está na ponta da operação sem ele precisar abrir três sistemas | desde 2026-11-12, o discovery é em transportadora de carga fracionada; distribuição e aviação pararam |
 | Poli Bridge | conecta a dor de uma empresa média a um laboratório ou startup da USP, com taxa sobre o sucesso | prospecção de indústrias |
