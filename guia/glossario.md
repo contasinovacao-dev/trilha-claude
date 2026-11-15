@@ -16,6 +16,9 @@
 - **Conflito:** quando duas pessoas mudaram o mesmo trecho e o Git pede para você decidir qual
   versão vale.
 - **GitHub CLI (`gh`):** o programa que conversa com o GitHub pelo terminal.
+- **Repositório privado:** só quem o dono convida vê. O seu `espaco-ni` é privado, e só você está
+  nele.
+- **`.gitignore`:** a lista do que o Git deixa de fora do repositório.
 
 ## Claude
 
@@ -26,6 +29,10 @@
 - **Contexto:** tudo o que o Claude tem diante dele numa conversa: os `CLAUDE.md`, o que você
   escreveu e os arquivos que ele leu. Fora disso, ele não sabe.
 - **Skill:** um pedido pronto, guardado num arquivo, que vira comando com `/`.
+- **Harness:** o conjunto de arquivos que faz o Claude trabalhar do seu jeito: os `CLAUDE.md`, as
+  skills e as regras do `settings.json`. O seu fica no `espaco-ni`. Ver `guia/organizar-o-claude.md`.
+- **Espaço (`~/NI`):** a pasta onde você trabalha com o Claude no dia a dia, guardada no
+  repositório privado `espaco-ni`.
 - **Projeto (claude.ai):** uma pasta de conversas no claude.ai, com instruções e arquivos próprios e
   uma memória separada.
 - **Limite de uso:** quanto a sua conta pode usar por janela de cinco horas e por semana, somando

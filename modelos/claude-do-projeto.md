@@ -7,6 +7,7 @@ Atualize sempre que algo importante mudar: é o que o Claude lê ao entrar no pr
 
 - **O que é:** {uma ou duas frases}
 - **Objetivo:** {o que tem de estar pronto e como se sabe que ficou bom}
+- **Objetivo que move:** {1, 2 ou 3 de `~/NI/eu/objetivos.md`}
 - **Prazo:** {AAAA-MM-DD}
 - **Com quem:** {dupla, PM}
 - **Onde estão as coisas:** {link do card, documentos, outras pastas}

@@ -1,0 +1,14 @@
+# Copiado para ~/NI/.gitignore na etapa 4. Diz o que o Git deixa de fora do espaco-ni.
+
+# A trilha é outro repositório, do time.
+trilha-claude/
+
+# Segredos e coisas só deste computador
+.env
+.env.*
+*.local.md
+.claude/settings.local.json
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

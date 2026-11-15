@@ -1,6 +1,6 @@
 # Combinados
 
-Oito regras para usar o Claude no treinamento. Valem na trilha e depois dela.
+Nove regras para usar o Claude no treinamento. Valem na trilha e depois dela.
 
 1. **Você é o autor.** O que avalia você (hipóteses, roteiro, análise, opinião) você escreve
    primeiro. O Claude critica, pergunta e aponta o que falta. Se ele reescrever, você sabe dizer o
@@ -18,5 +18,7 @@ Oito regras para usar o Claude no treinamento. Valem na trilha e depois dela.
    Claude para abrir ou mudar a pasta dele.
 7. **O limite acaba.** Conversa curta, uma por assunto. Assunto novo, conversa nova. `/usage` no VS
    Code mostra quanto já foi.
-8. **Travou duas vezes, chame alguém.** Se o Claude tentou duas vezes e não resolveu, ele anota no
+8. **O seu espaço é seu.** O `espaco-ni` é privado e continua privado. Nada dele vai para a trilha
+   sem você pedir, e a regra 2 vale lá dentro também.
+9. **Travou duas vezes, chame alguém.** Se o Claude tentou duas vezes e não resolveu, ele anota no
    seu `progresso.md` e você chama o Bruno. A terceira tentativa costuma piorar.

@@ -21,14 +21,19 @@ decidir. Isso é um conflito, e é normal.
    todas as linhas. Ela resolve no VS Code, com **Accept Both Changes**, ou você resolve e mostra.
    Depois, `git add turma.md` e `git commit`.
 4. `git push`.
-5. Tire do `~/NI/CLAUDE.md` a seção "Trilha em andamento".
-6. `gh pr ready` tira o PR do rascunho. Ela manda o link para o Bruno.
-7. Explique a conversa de fechamento com o Bruno: ela mostra o diário e conta um uso que mudou o
+5. `gh pr ready` tira o PR do rascunho. Ela manda o link para o Bruno.
+6. Explique a conversa de fechamento com o Bruno: ela mostra o diário e conta um uso que mudou o
    trabalho dela e um em que o Claude errou ou não ajudou.
-8. Marque a etapa 7 em `progresso.md` e rode a skill `salvar`.
+7. Marque a etapa 7 em `progresso.md` e salve a trilha pela skill de lá
+   (`trilha-claude/.claude/skills/salvar/SKILL.md`).
+8. **A primeira revisão dos objetivos.** Ela roda `/objetivos` e escreve o próximo passo de cada
+   objetivo. Diga que essa revisão é semanal daqui em diante.
+9. Tire do `~/NI/CLAUDE.md` a seção "Trilha em andamento" e rode `/salvar`. O espaço segue sozinho,
+   no GitHub dela; a trilha continua na pasta, para consulta.
 
 ## Pronto quando
 
 - [ ] A branch dela tem a `main` mais recente e nenhum conflito aberto.
 - [ ] O PR saiu do rascunho e o Bruno recebeu o link.
-- [ ] A seção "Trilha em andamento" saiu do `~/NI/CLAUDE.md`.
+- [ ] A primeira revisão está em `eu/objetivos.md`, com o próximo passo de cada objetivo.
+- [ ] A seção "Trilha em andamento" saiu do `~/NI/CLAUDE.md`, e o `espaco-ni` foi salvo.

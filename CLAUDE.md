@@ -1,7 +1,8 @@
 # Trilha do Claude: instruções para o Claude
 
 Você está no repositório da trilha que leva um trainee do Núcleo de Inovação (NI) da Poli Júnior do
-zero até o Claude bem configurado no computador dele, e que ensina a usar você no treinamento. Você
+zero até o Claude bem configurado no computador dele, com o contexto, os objetivos e o espaço de
+trabalho guardados num repositório privado no GitHub dele, e que ensina a usar você no treinamento. Você
 conduz a trilha. Quem a mantém é o Bruno, PM do NI, que acompanha cada trainee pelo pull request
 dele no GitHub.
 
@@ -13,7 +14,9 @@ trilha sozinho, no seu ritmo. O que um faz só chega aos outros pelo GitHub: a p
 
 Quem é a pessoa de agora está em `~/.claude/CLAUDE.md`, que você já recebe carregado. Se lá houver
 a seção "Quem usa este computador", é essa pessoa, e a pasta dela é a que está escrita ali. Se não
-houver, é a primeira conversa: comece pela etapa 1.
+houver, é a primeira conversa: comece pela etapa 1. A primeira mensagem costuma ser o primeiro prompt
+(`primeiro-prompt.md`), com as respostas das perguntas de setup: use as respostas na etapa 1 e não
+pergunte de novo o que ela já respondeu.
 
 Nunca abra, edite ou comente a pasta ou a branch de outro trainee. Se a pessoa pedir, diga que a
 pasta é do colega e que o trabalho dele aparece no pull request dele.
@@ -38,7 +41,7 @@ trilha no fim.
 | 1. O Claude te conhece | `trilha/1-o-claude-te-conhece.md` | pasta da trilha |
 | 2. O seu trabalho no GitHub | `trilha/2-o-github.md` | pasta da trilha |
 | 3. O Claude fora do VS Code | `trilha/3-o-claude-fora-do-vs-code.md` | pasta da trilha |
-| 4. O seu espaço de trabalho | `trilha/4-o-seu-espaco.md` | começa na trilha e termina em `~/NI` |
+| 4. O seu espaço, no seu GitHub | `trilha/4-o-seu-espaco.md` | começa na trilha e termina em `~/NI` |
 | 5. Pensar com o Claude | `trilha/5-pensar-com-o-claude.md` | `~/NI` |
 | 6. A sua skill | `trilha/6-a-sua-skill.md` | `~/NI` |
 | 7. Entrega | `trilha/7-entrega.md` | `~/NI` |
@@ -94,28 +97,36 @@ em todo trabalho do treinamento:
 - **Instalação:** só o que a trilha pede (Git, GitHub CLI, a extensão do Claude Code, o app do
   Claude). Comando que pede senha de administrador, a pessoa roda.
 - **Fora do computador:** você não manda mensagem, e-mail ou convite em nome do trainee, e não
-  publica nada fora deste repositório.
-- **Arquivos fora da trilha:** só os que a trilha cria (`~/.claude/CLAUDE.md`, `~/.claude/skills/`,
-  `~/NI/`). Antes de mudar um arquivo que já existe, mostre o que tem e pergunte.
+  publica nada fora deste repositório e do `espaco-ni` dela, que é privado e continua privado.
+- **Arquivos fora da trilha:** só os que a trilha cria (`~/.claude/CLAUDE.md` e `~/NI/`). Antes de
+  mudar um arquivo que já existe, mostre o que tem e pergunte.
+- **O que é dela fica com ela:** `~/NI/eu/` e o resto do espaço nunca vão para a trilha. Na pasta
+  dela na trilha entram só o perfil, o progresso, o diário e a skill.
 
 ## Fim de toda conversa
 
-Quando a pessoa disser que vai parar, ou no fim de cada etapa, siga a skill `salvar`
-(`.claude/skills/salvar/SKILL.md`): atualiza o progresso, mostra o que mudou, faz commit e push com
-o ok dela e diz qual é o próximo passo.
+Quando a pessoa disser que vai parar, ou no fim de cada etapa, salve:
+
+- nas etapas 1 a 4, aberto na trilha: a skill `salvar` da trilha (`.claude/skills/salvar/SKILL.md`),
+  que atualiza o progresso, mostra o que mudou, faz commit e push com o ok dela e diz qual é o
+  próximo passo;
+- da etapa 4 em diante, aberto em `~/NI`: a skill `/salvar` do espaço, que salva a trilha e depois
+  o `espaco-ni`.
 
 ## Mapa do repositório
 
 | Caminho | O que é |
 | --- | --- |
 | `README.md` | para o trainee: o que fazer antes de o Claude existir no computador |
+| `primeiro-prompt.md` | a primeira mensagem do trainee, com as perguntas de setup |
 | `trilha/` | as sete etapas |
 | `guia/usos.md` | os seis usos do Claude no treinamento, com pedidos de exemplo |
+| `guia/organizar-o-claude.md` | as camadas do harness: o que vai em cada arquivo e como manter em dia |
 | `guia/combinados.md` | as regras de uso |
 | `guia/git.md`, `guia/glossario.md` | cola de git e palavras novas |
-| `modelos/` | os modelos dos arquivos que a trilha cria |
-| `skills/` | as seis skills de uso, que a etapa 4 instala em `~/.claude/skills/` |
-| `.claude/skills/` | `trilha` (retomar) e `salvar` (salvar e enviar), só da trilha |
+| `modelos/` | os modelos dos arquivos que a trilha cria; `modelos/espaco/` tem o que vai para o `espaco-ni` |
+| `skills/` | as seis skills de uso, `salvar` e `objetivos`, que a etapa 4 instala em `~/NI/.claude/skills/` |
+| `.claude/skills/` | `trilha` (retomar) e `salvar` (salvar e enviar a trilha), só da trilha |
 | `contexto/nucleo.md` | o NI, os produtos e como o treinamento funciona |
 | `contexto/ludi.md` | a aposta do Ludi (o departamento de estatística da escola pequena), o que já se sabe e o que o squad testa |
 | `trainees/<pasta>/` | perfil, progresso, diário e skill de cada trainee |

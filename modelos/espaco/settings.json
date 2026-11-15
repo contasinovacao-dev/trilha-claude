@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git -C trilha-claude status:*)",
+      "Bash(git -C trilha-claude diff:*)",
+      "Bash(git -C trilha-claude log:*)",
+      "Bash(git -C trilha-claude branch:*)",
+      "Bash(git -C trilha-claude fetch:*)",
+      "Bash(gh --version)",
+      "Bash(gh auth status:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh repo view:*)"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git push --force-with-lease:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git clean:*)",
+      "Bash(git branch -D:*)",
+      "Bash(git -C trilha-claude push --force:*)",
+      "Bash(git -C trilha-claude push -f:*)",
+      "Bash(git -C trilha-claude push --force-with-lease:*)",
+      "Bash(git -C trilha-claude push origin main:*)",
+      "Bash(git -C trilha-claude reset --hard:*)",
+      "Bash(git -C trilha-claude clean:*)",
+      "Bash(git -C trilha-claude branch -D:*)",
+      "Bash(gh repo edit:*)",
+      "Bash(gh repo delete:*)"
+    ]
+  }
+}
