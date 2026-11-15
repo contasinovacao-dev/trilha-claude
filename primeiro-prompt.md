@@ -4,8 +4,8 @@
 cole no Claude e mande:
 
 ```text
-Oi, Claude. Sou trainee do squad do Ludi e vou começar a Trilha do Claude. Quero sair dela com
-você sabendo quem eu sou, o que eu faço dentro e fora do NI e quais são os meus objetivos, e com o
+Oi, Claude. Sou trainee do squad do Ludi e vou começar a Trilha do Claude, que está em
+https://github.com/contasinovacao-dev/trilha-claude. Quero sair dela com você sabendo quem eu sou, o que eu faço dentro e fora do NI e quais são os meus objetivos, e com o
 meu espaço de trabalho guardado no meu GitHub. Me entrevista aos poucos, uma pergunta por vez, e
 vai guardando o que eu responder.
 ```
