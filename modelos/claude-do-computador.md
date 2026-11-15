@@ -1,6 +1,7 @@
 <!--
-Modelo do ~/.claude/CLAUDE.md, preenchido na etapa 1 com as respostas do primeiro prompt.
-O Claude troca cada {campo} pelo que a pessoa respondeu, mostra o texto inteiro e só salva com o ok dela.
+Modelo do ~/.claude/CLAUDE.md, preenchido aos poucos na entrevista da etapa 1.
+O Claude guarda cada bloco assim que ele termina, só com as seções que já têm resposta, e no fim
+mostra o texto inteiro para ela revisar.
 Curto de propósito: o Claude lê este arquivo inteiro em toda conversa. O detalhe fica em ~/NI/eu/.
 Na etapa 4, uma cópia vai para ~/NI/eu/claude-do-computador.md, no GitHub dela.
 -->

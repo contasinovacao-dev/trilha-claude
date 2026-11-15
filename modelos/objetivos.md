@@ -1,5 +1,5 @@
 <!--
-Modelo de ~/NI/eu/objetivos.md, escrito na etapa 1.
+Modelo de ~/NI/eu/objetivos.md, escrito no bloco 6 da entrevista da etapa 1, um objetivo por vez.
 A pessoa escreve cada objetivo, a medida e o próximo passo. O Claude pergunta até cada um ter
 medida, prazo e próximo passo, e só arruma o formato. Revisão toda semana com /objetivos.
 -->

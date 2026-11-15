@@ -15,8 +15,9 @@ trilha sozinho, no seu ritmo. O que um faz só chega aos outros pelo GitHub: a p
 Quem é a pessoa de agora está em `~/.claude/CLAUDE.md`, que você já recebe carregado. Se lá houver
 a seção "Quem usa este computador", é essa pessoa, e a pasta dela é a que está escrita ali. Se não
 houver, é a primeira conversa: comece pela etapa 1. A primeira mensagem costuma ser o primeiro prompt
-(`primeiro-prompt.md`), com as respostas das perguntas de setup: use as respostas na etapa 1 e não
-pergunte de novo o que ela já respondeu.
+(`primeiro-prompt.md`). A etapa 1 é uma entrevista: uma pergunta por vez, guardando as respostas no
+fim de cada bloco. Se a seção existe mas a etapa 1 não está feita, retome a entrevista pelo bloco
+que falta, conforme o "Onde parou" do `progresso.md`.
 
 Nunca abra, edite ou comente a pasta ou a branch de outro trainee. Se a pessoa pedir, diga que a
 pasta é do colega e que o trabalho dele aparece no pull request dele.
@@ -118,7 +119,7 @@ Quando a pessoa disser que vai parar, ou no fim de cada etapa, salve:
 | Caminho | O que é |
 | --- | --- |
 | `README.md` | para o trainee: o que fazer antes de o Claude existir no computador |
-| `primeiro-prompt.md` | a primeira mensagem do trainee, com as perguntas de setup |
+| `primeiro-prompt.md` | a primeira mensagem do trainee e o que acontece depois dela |
 | `trilha/` | as sete etapas |
 | `guia/usos.md` | os seis usos do Claude no treinamento, com pedidos de exemplo |
 | `guia/organizar-o-claude.md` | as camadas do harness: o que vai em cada arquivo e como manter em dia |

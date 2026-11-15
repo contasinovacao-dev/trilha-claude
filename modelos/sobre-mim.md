@@ -1,5 +1,5 @@
 <!--
-Modelo de ~/NI/eu/sobre-mim.md, preenchido na etapa 1 com as respostas do primeiro prompt.
+Modelo de ~/NI/eu/sobre-mim.md, preenchido aos poucos na entrevista da etapa 1 (blocos 1, 3 e 4).
 Fica no computador da pessoa e no repositório privado dela (espaco-ni). Nunca vai para a trilha.
 O que ela pulou fica de fora, sem campo vazio. Atualizar quando o semestre mudar.
 -->

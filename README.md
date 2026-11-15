@@ -36,9 +36,8 @@ O Claude conduz a trilha. Você só faz à mão o que vem antes de ele estar no 
    **Open**.
 7. **Abrir o Claude.** Clique no ícone do Claude no canto de cima, à direita do editor, ou aperte
    `Ctrl+Shift+P` / `Cmd+Shift+P` e digite **Claude Code**. Entre com a sua conta do Claude.
-8. **O primeiro prompt.** Abra `primeiro-prompt.md`, na lista de arquivos à esquerda. Copie o
-   bloco de perguntas para um arquivo novo (`Ctrl+N` / `Cmd+N`), responda e cole tudo no Claude. Se
-   você já respondeu antes, pelo celular, é só colar.
+8. **O primeiro prompt.** Abra `primeiro-prompt.md`, na lista de arquivos à esquerda, copie a
+   mensagem e mande para o Claude. Ele te entrevista dali em diante, uma pergunta por vez.
 
 Daqui em diante, é com ele.
 
@@ -46,7 +45,7 @@ Daqui em diante, é com ele.
 
 | Etapa | Você sai sabendo | Tempo |
 | --- | --- | --- |
-| 1. O Claude te conhece | onde escrever para o Claude lembrar de você, e objetivos que dá para conferir | 20 min |
+| 1. O Claude te conhece | onde escrever para o Claude lembrar de você, e objetivos que dá para conferir | 25 min |
 | 2. O seu trabalho no GitHub | o ciclo branch, commit, push e pull request | 25 min |
 | 3. O Claude fora do VS Code | usar o Claude no navegador e no celular com o contexto do treinamento | 15 min |
 | 4. O seu espaço, no seu GitHub | uma pasta por projeto e o seu harness num repositório privado seu | 30 min |
