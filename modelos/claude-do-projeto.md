@@ -1,5 +1,6 @@
 <!--
-Modelo do CLAUDE.md de um projeto em ~/NI/<projeto>/, preenchido na etapa 4.
+Modelo do CLAUDE.md de uma pasta nova em ~/NI/<pasta>/, quando ela pedir uma depois da trilha
+("cria uma pasta para o estágio"). O treinamento e a faculdade têm modelos próprios.
 Atualize sempre que algo importante mudar: é o que o Claude lê ao entrar no projeto.
 -->
 
@@ -7,7 +8,7 @@ Atualize sempre que algo importante mudar: é o que o Claude lê ao entrar no pr
 
 - **O que é:** {uma ou duas frases}
 - **Objetivo:** {o que tem de estar pronto e como se sabe que ficou bom}
-- **Objetivo que move:** {1, 2 ou 3 de `~/NI/eu/objetivos.md`}
+- **Ajuda no objetivo do NI?** {como, ou "não"; o objetivo está em `~/NI/eu/objetivos.md`}
 - **Prazo:** {AAAA-MM-DD}
 - **Com quem:** {dupla, PM}
 - **Onde estão as coisas:** {link do card, documentos, outras pastas}

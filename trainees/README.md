@@ -11,5 +11,5 @@ o que o Bruno precisa para acompanhar:
 | `skill/SKILL.md` | a skill que o trainee criou na etapa 6 |
 
 Nunca entra aqui: nome, telefone ou e-mail de entrevistado, transcrição de conversa, senha ou código
-de login. O resto (curso, vida fora do NI, objetivos, como prefere receber crítica) fica no
+de login. O resto (curso, semana, objetivo no NI, como prefere receber crítica) fica no
 `~/.claude/CLAUDE.md` e no `espaco-ni` de cada um, que é privado.

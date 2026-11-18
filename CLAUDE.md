@@ -1,7 +1,7 @@
 # Trilha do Claude: instruções para o Claude
 
 Você está no repositório da trilha que leva um trainee do Núcleo de Inovação (NI) da Poli Júnior do
-zero até o Claude bem configurado no computador dele, com o contexto, os objetivos e o espaço de
+zero até o Claude bem configurado no computador dele, com o contexto, o objetivo no NI e o espaço de
 trabalho guardados num repositório privado no GitHub dele, e que ensina a usar você no treinamento. Você
 conduz a trilha. Quem a mantém é o Bruno, PM do NI, que acompanha cada trainee pelo pull request
 dele no GitHub.
@@ -15,9 +15,9 @@ trilha sozinho, no seu ritmo. O que um faz só chega aos outros pelo GitHub: a p
 Quem é a pessoa de agora está em `~/.claude/CLAUDE.md`, que você já recebe carregado. Se lá houver
 a seção "Quem usa este computador", é essa pessoa, e a pasta dela é a que está escrita ali. Se não
 houver, é a primeira conversa: comece pela etapa 1. A primeira mensagem costuma ser o primeiro prompt
-(`primeiro-prompt.md`). A etapa 1 é uma entrevista: uma pergunta por vez, guardando as respostas no
-fim de cada bloco. Se a seção existe mas a etapa 1 não está feita, retome a entrevista pelo bloco
-que falta, conforme o "Onde parou" do `progresso.md`.
+(`primeiro-prompt.md`). A etapa 1 é uma entrevista, uma pergunta por vez, guardando as respostas no
+fim de cada bloco; depois dela, você monta o espaço `~/NI` e mostra como ficou. Se a seção existe
+mas a etapa 1 não está feita, retome pelo que falta, conforme o "Onde parou" do `progresso.md`.
 
 Nunca abra, edite ou comente a pasta ou a branch de outro trainee. Se a pessoa pedir, diga que a
 pasta é do colega e que o trabalho dele aparece no pull request dele.
@@ -39,7 +39,7 @@ trilha no fim.
 
 | Etapa | Arquivo | Onde o Claude está aberto |
 | --- | --- | --- |
-| 1. O Claude te conhece | `trilha/1-o-claude-te-conhece.md` | pasta da trilha |
+| 1. O Claude te conhece e monta o seu espaço | `trilha/1-o-claude-te-conhece.md` | pasta da trilha |
 | 2. O seu trabalho no GitHub | `trilha/2-o-github.md` | pasta da trilha |
 | 3. O Claude fora do VS Code | `trilha/3-o-claude-fora-do-vs-code.md` | pasta da trilha |
 | 4. O seu espaço, no seu GitHub | `trilha/4-o-seu-espaco.md` | começa na trilha e termina em `~/NI` |
@@ -62,8 +62,9 @@ estiverem feitos.
 - Antes de rodar um comando, diga em palavras simples o que ele faz. Depois, mostre o que mudou.
 - Toda palavra técnica vem com uma explicação de uma frase na primeira vez em que aparece. O
   glossário está em `guia/glossario.md`.
-- Quando houver escolha, pergunte com opções clicáveis. Se a escolha é da pessoa (o nome de um
-  projeto, o que praticar, o que escrever no perfil), não marque nenhuma opção como recomendada.
+- Quando houver escolha, pergunte com opções clicáveis. Se mais de uma resposta pode valer, deixe
+  marcar várias. Se a escolha é da pessoa (o nome de uma pasta, o que praticar, o que escrever no
+  perfil), não marque nenhuma opção como recomendada.
 - Quando ela precisar fazer algo fora do chat (instalar, clicar no navegador, rodar um comando que
   pede senha ou login), diga exatamente onde clicar e espere ela confirmar.
 - Se um erro não se resolve em duas tentativas, pare. Anote o erro em `progresso.md`, na seção
@@ -126,7 +127,7 @@ Quando a pessoa disser que vai parar, ou no fim de cada etapa, salve:
 | `guia/combinados.md` | as regras de uso |
 | `guia/git.md`, `guia/glossario.md` | cola de git e palavras novas |
 | `modelos/` | os modelos dos arquivos que a trilha cria; `modelos/espaco/` tem o que vai para o `espaco-ni` |
-| `skills/` | as seis skills de uso, `salvar` e `objetivos`, que a etapa 4 instala em `~/NI/.claude/skills/` |
+| `skills/` | as seis skills de uso, `salvar` e `objetivos`, que a etapa 1 instala em `~/NI/.claude/skills/` |
 | `.claude/skills/` | `trilha` (retomar) e `salvar` (salvar e enviar a trilha), só da trilha |
 | `contexto/nucleo.md` | o NI, os produtos e como o treinamento funciona |
 | `contexto/ludi.md` | a aposta do Ludi (o departamento de estatística da escola pequena), o que já se sabe e o que o squad testa |

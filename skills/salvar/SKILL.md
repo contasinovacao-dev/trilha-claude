@@ -13,17 +13,19 @@ Guarda o espaço `~/NI` no repositório privado `espaco-ni`, no GitHub da pessoa
 1. **A trilha primeiro.** Se o `~/NI/CLAUDE.md` ainda tiver a seção "Trilha em andamento", siga
    `trilha-claude/.claude/skills/salvar/SKILL.md`, com o git em `git -C trilha-claude`. Depois,
    volte aqui.
-2. **A cópia do computador.** Compare `~/.claude/CLAUDE.md` com `eu/claude-do-computador.md`. Se
+2. **Antes da etapa 4.** Se `~/NI` ainda não é um repositório (não existe `~/NI/.git`), diga que o
+   espaço vai para o GitHub na etapa 4 da trilha e pare aqui.
+3. **A cópia do computador.** Compare `~/.claude/CLAUDE.md` com `eu/claude-do-computador.md`. Se
    estiverem diferentes, copie o primeiro sobre o segundo e diga isso em uma linha.
-3. **O que mudou.** Rode `git status` em `~/NI` e explique em uma linha cada arquivo que mudou. Se
+4. **O que mudou.** Rode `git status` em `~/NI` e explique em uma linha cada arquivo que mudou. Se
    nada mudou, diga que já está tudo salvo e pare.
-4. **Conferência.** Nenhum arquivo pode ter senha, token, `.env`, nem nome, telefone ou e-mail de
+5. **Conferência.** Nenhum arquivo pode ter senha, token, `.env`, nem nome, telefone ou e-mail de
    entrevistado, lead ou cliente. Se tiver, pare, mostre onde está e pergunte o que fazer. A pasta
    `trilha-claude/` não pode aparecer no `git status`; se aparecer, pare e confira o `.gitignore`.
-5. **A mensagem.** Proponha uma mensagem de commit curta, dizendo o que mudou
+6. **A mensagem.** Proponha uma mensagem de commit curta, dizendo o que mudou
    (`treinamento: ata da entrevista com a coordenadora`), e pergunte se pode enviar.
-6. **O envio.** Com o ok: `git add -A`, `git commit -m "<mensagem>"` e `git push`.
-7. Diga em uma linha que está salvo. `gh repo view --web` abre o repositório no navegador.
+7. **O envio.** Com o ok: `git add -A`, `git commit -m "<mensagem>"` e `git push`.
+8. Diga em uma linha que está salvo. `gh repo view --web` abre o repositório no navegador.
 
 ## Nunca
 

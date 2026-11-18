@@ -3,11 +3,11 @@
 Esta trilha deixa o Claude pronto no seu computador e ensina a usá-lo no treinamento do NI. No fim,
 você tem:
 
-- o Claude sabendo quem você é, o que você faz dentro e fora do NI, quais são os seus objetivos e
-  como você gosta de trabalhar, em qualquer pasta que você abrir;
-- objetivos do semestre que dá para conferir, com uma revisão por semana;
-- uma pasta de trabalho com um projeto para cada frente sua, guardada num repositório privado no seu
-  GitHub, o `espaco-ni`;
+- o Claude sabendo quem você é, o que você faz no NI, qual é o seu objetivo no treinamento e como
+  você gosta de trabalhar, em qualquer pasta que você abrir;
+- um objetivo no NI que dá para conferir, com uma revisão por semana;
+- uma pasta de trabalho montada pelo Claude, com um lugar para o treinamento e outro para a
+  faculdade, guardada num repositório privado no seu GitHub, o `espaco-ni`;
 - o Claude também no navegador e no celular, com o mesmo contexto;
 - a sua primeira contribuição no GitHub, revisada pelo Bruno;
 - seis jeitos de usar o Claude para pensar melhor, testados no seu próprio card.
@@ -37,7 +37,8 @@ O Claude conduz a trilha. Você só faz à mão o que vem antes de ele estar no 
 7. **Abrir o Claude.** Clique no ícone do Claude no canto de cima, à direita do editor, ou aperte
    `Ctrl+Shift+P` / `Cmd+Shift+P` e digite **Claude Code**. Entre com a sua conta do Claude.
 8. **O primeiro prompt.** Abra `primeiro-prompt.md`, na lista de arquivos à esquerda, copie a
-   mensagem e mande para o Claude. Ele te entrevista dali em diante, uma pergunta por vez.
+   mensagem e mande para o Claude. Ele te entrevista dali em diante, uma pergunta por vez. Deixe à
+   mão um print da sua grade horária do Júpiter ou da sua agenda da semana: ele vai pedir.
 
 Daqui em diante, é com ele.
 
@@ -45,10 +46,10 @@ Daqui em diante, é com ele.
 
 | Etapa | Você sai sabendo | Tempo |
 | --- | --- | --- |
-| 1. O Claude te conhece | onde escrever para o Claude lembrar de você, e objetivos que dá para conferir | 25 min |
+| 1. O Claude te conhece e monta o seu espaço | por que o Claude esquece, o que ele anota para lembrar de você e como ficou a sua pasta de trabalho | 30 min |
 | 2. O seu trabalho no GitHub | o ciclo branch, commit, push e pull request | 25 min |
 | 3. O Claude fora do VS Code | usar o Claude no navegador e no celular com o contexto do treinamento | 15 min |
-| 4. O seu espaço, no seu GitHub | uma pasta por projeto e o seu harness num repositório privado seu | 30 min |
+| 4. O seu espaço, no seu GitHub | guardar a sua pasta num repositório privado seu e trabalhar nela | 20 min |
 | 5. Pensar com o Claude | os seis usos no treinamento, testados no seu card | 20 min na sessão, o resto até segunda, 16/11 |
 | 6. A sua skill | transformar um pedido que você repete num comando seu | 15 min, até 16/11 |
 | 7. Entrega | trazer o trabalho do time para a sua branch e resolver um conflito | 15 min |

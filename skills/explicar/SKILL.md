@@ -12,7 +12,7 @@ description: Explicar um conceito que o trainee precisa no treinamento ou na fac
    erro num exemplo. Corrija cada resposta antes da próxima.
 4. Se ele errar duas, explique de outro jeito, com outro exemplo, e pergunte de novo.
 5. No fim, peça que ele explique o conceito em duas frases. Ofereça salvar o resumo dele (não o
-   seu) na pasta de estudos, se existir.
+   seu) na pasta da matéria em `~/NI/faculdade/` ou em `~/NI/treinamento/`, conforme o assunto.
 
 Se houver uma boa fonte para ir além (livro, artigo, documentação oficial), indique uma, com link.
 Se ele estiver na trilha, lembre do diário no fim.

@@ -1,6 +1,6 @@
 ---
 name: objetivos
-description: Revisar os objetivos do semestre com a pessoa a partir de ~/NI/eu/objetivos.md - o que avançou, o que travou e o próximo passo de cada um. Use quando ela disser "revisar objetivos", "como estão meus objetivos", "o que eu faço essa semana", "o que priorizar", "estou perdido", e uma vez por semana.
+description: Revisar o objetivo no NI (e outros que a pessoa tenha acrescentado) a partir de ~/NI/eu/objetivos.md - o que avançou, o que travou e o próximo passo de cada um. Use quando ela disser "revisar objetivos", "como estão meus objetivos", "o que eu faço essa semana", "o que priorizar", "estou perdido", e uma vez por semana.
 ---
 
 # Objetivos
@@ -24,8 +24,8 @@ Quem avalia o avanço e escolhe o passo é ela; você pergunta e aponta.
 6. Se um objetivo deixou de fazer sentido, pergunte se ela quer trocar. O objetivo trocado vai para
    "Revisões" com o motivo, e não some.
 7. Mostre o que vai mudar no arquivo: a linha nova em "Revisões", os próximos passos e a data de
-   "Atualizado em". Com o ok, salve. Se algum objetivo mudou, atualize também a seção "Objetivos"
-   do `~/.claude/CLAUDE.md`, mostrando antes. Depois, ofereça `/salvar`.
+   "Atualizado em". Com o ok, salve. Se algum objetivo mudou, atualize também a seção "Objetivo
+   no NI" do `~/.claude/CLAUDE.md`, mostrando antes. Depois, ofereça `/salvar`.
 
 ## Nunca
 

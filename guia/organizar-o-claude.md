@@ -2,17 +2,17 @@
 
 O Claude não lembra das conversas anteriores. Tudo o que ele sabe de você no começo de uma conversa
 vem de arquivos que você escreveu. Organizar o Claude é decidir o que vai em cada arquivo. Esse
-conjunto de arquivos (instruções, skills e regras) se chama **harness**. O seu fica num
-repositório privado no seu GitHub, o `espaco-ni`, que a etapa 4 cria.
+conjunto de arquivos (instruções, skills e regras) se chama **harness**. O Claude monta o seu na
+etapa 1, depois da entrevista, e a etapa 4 guarda num repositório privado no seu GitHub, o `espaco-ni`.
 
 ## As camadas
 
 | Camada | Arquivo | Quando o Claude lê | O que vai nele | Onde fica guardado |
 | --- | --- | --- | --- | --- |
-| Computador | `~/.claude/CLAUDE.md` | toda conversa, em qualquer pasta | quem você é, os objetivos em uma linha cada, como trabalhar com você | no computador, com cópia em `espaco-ni/eu/` |
-| Espaço | `~/NI/CLAUDE.md` | toda conversa dentro de `~/NI` | os projetos, onde guardar cada coisa, as regras do espaço | `espaco-ni` |
-| Você, em detalhe | `~/NI/eu/sobre-mim.md` e `~/NI/eu/objetivos.md` | quando o pedido precisa: estudo, semana, prioridade | matérias, atividades, semana, interesses; objetivos com medida, prazo e próximo passo | `espaco-ni` |
-| Projeto | `~/NI/<projeto>/CLAUDE.md` | quando o Claude mexe naquele projeto | o que é, o objetivo que ele move, prazo, com quem, o que já se sabe | `espaco-ni` |
+| Computador | `~/.claude/CLAUDE.md` | toda conversa, em qualquer pasta | quem você é, o objetivo no NI em uma linha, como trabalhar com você | no computador, com cópia em `espaco-ni/eu/` |
+| Espaço | `~/NI/CLAUDE.md` | toda conversa dentro de `~/NI` | as pastas, onde guardar cada coisa, as regras do espaço | `espaco-ni` |
+| Você, em detalhe | `~/NI/eu/sobre-mim.md` e `~/NI/eu/objetivos.md` | quando o pedido precisa: estudo, semana, prioridade | por que entrou no NI, a semana (do print da grade), outras atividades; o objetivo com medida, prazo e próximo passo | `espaco-ni` |
+| Pasta de trabalho | `~/NI/treinamento/CLAUDE.md`, `~/NI/faculdade/CLAUDE.md` e as que você criar | quando o Claude mexe naquela pasta | o que é, com quem, o que está em andamento, como o Claude ajuda ali | `espaco-ni` |
 | Skills | `~/NI/.claude/skills/<nome>/SKILL.md` | quando você digita `/<nome>` ou o pedido combina com a descrição | um pedido que você repete, com os passos | `espaco-ni` |
 | Regras | `~/NI/.claude/settings.json` | sempre, dentro de `~/NI` | os comandos liberados e os bloqueados | `espaco-ni` |
 | Trilha | `~/NI/trilha-claude/` | durante a trilha | as etapas e a sua pasta na turma | repositório do time |
@@ -22,7 +22,7 @@ repositório privado no seu GitHub, o `espaco-ni`, que a etapa 4 cria.
 
 - **Vale em qualquer conversa?** `~/.claude/CLAUDE.md`. Mantenha curto: o Claude lê o arquivo
   inteiro em toda conversa, e isso gasta o limite de uso.
-- **Só vale dentro de um projeto?** O `CLAUDE.md` do projeto.
+- **Só vale dentro de uma pasta (o treinamento, a faculdade)?** O `CLAUDE.md` dela.
 - **É detalhe que só às vezes importa?** Um arquivo à parte, com uma linha no `CLAUDE.md` dizendo
   quando ler. É o caso de `sobre-mim.md` e `objetivos.md`.
 - **Você pediu a mesma coisa duas vezes?** Vira skill (etapa 6).
@@ -36,7 +36,7 @@ repositório privado no seu GitHub, o `espaco-ni`, que a etapa 4 cria.
 | no fim de uma conversa em que algum arquivo mudou | `/salvar` |
 | toda semana | `/objetivos` |
 | mudou de card | "mudei de card, atualiza": o Claude mexe no `~/.claude/CLAUDE.md` e no `CLAUDE.md` do treinamento |
-| começou um semestre | atualize `eu/sobre-mim.md` e escreva os objetivos novos |
+| começou um semestre | mande o print da grade nova e revise o objetivo com `/objetivos` |
 | o Claude errou do mesmo jeito duas vezes | escreva a regra no `CLAUDE.md` certo |
 
 ## Sinais de que o harness precisa de ajuste

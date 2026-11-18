@@ -7,7 +7,7 @@
 
 Se você pediu a mesma coisa duas vezes, escreva o pedido uma vez num arquivo. Uma skill é uma pasta
 em `~/NI/.claude/skills/<nome>/` com um arquivo `SKILL.md`: em cima, o nome e quando usar; embaixo,
-os passos. As oito que você instalou na etapa 4 mostram o formato. Como ficam no seu espaço, vão para
+os passos. As oito que o Claude instalou no seu espaço na etapa 1 mostram o formato. Como ficam no seu espaço, vão para
 o seu GitHub com o resto.
 
 ## Roteiro para o Claude

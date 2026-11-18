@@ -1,21 +1,45 @@
 <!--
-Modelo do ~/NI/README.md, copiado na etapa 4. É o que aparece na página do espaco-ni no GitHub.
+Modelo do ~/NI/README.md, criado no passo 7 da etapa 1. É a explicação, sem palavra técnica, do que
+o Claude montou e por quê, e o que aparece na página do espaco-ni no GitHub. Escrito na voz dela.
+Deixar só as pastas que existem de fato.
 -->
 
 # O espaço de {apelido} no NI
 
-O meu espaço de trabalho no treinamento do NI, com o Claude. Repositório privado: só eu vejo.
+Esta é a pasta onde eu trabalho com o Claude no treinamento do NI. O Claude montou a pasta na
+Trilha do Claude, a partir de uma conversa comigo. Só eu vejo.
 
-| Caminho | O que é |
+## Por que ela existe
+
+O Claude não lembra de nada de uma conversa para outra. Toda conversa começa do zero, e ele lê as
+anotações desta pasta para saber quem eu sou, em que estou trabalhando e como gosto de trabalhar.
+Sem elas, eu teria de explicar tudo de novo a cada conversa.
+
+Exemplo: se eu escrever "me ajuda a preparar a entrevista de quinta", ele já sabe qual é o meu
+card, quem é a minha dupla e em que eu quero melhorar. Eu só falo da entrevista.
+
+## O que tem aqui
+
+| Pasta | O que guarda |
 | --- | --- |
-| `CLAUDE.md` | o mapa que o Claude lê ao abrir esta pasta: projetos, onde guardar cada coisa e regras |
-| `eu/` | `sobre-mim.md`, `objetivos.md` e `claude-do-computador.md`, a cópia do `~/.claude/CLAUDE.md` |
-| `.claude/skills/` | as minhas skills: as seis de uso, `salvar`, `objetivos` e as que eu criar |
-| `.claude/settings.json` | o que o Claude pode e não pode fazer aqui |
-| `<projeto>/` | uma pasta por projeto, cada uma com o seu `CLAUDE.md` |
+| `treinamento` | o card, a dupla e o que eu fizer no treinamento: entrevistas, atas, análises |
+| `faculdade` | as matérias do semestre, tiradas do print da minha grade |
+| `eu` | quem eu sou, a minha semana e o meu objetivo no NI |
+| `trilha-claude` | a trilha; fica aqui dentro, mas é do time |
 
-A trilha (`trilha-claude/`) fica dentro de `~/NI`, mas é outro repositório, do time. O `.gitignore`
-a deixa de fora deste.
+As pastas de trabalho têm um arquivo chamado `CLAUDE.md`, com as anotações que o Claude lê quando
+eu trabalho ali. Uma pasta escondida, `.claude`, guarda os comandos prontos (como `/ensaiar`) e as
+regras do que ele pode fazer aqui.
+
+O resumo de quem eu sou fica num arquivo fora desta pasta, que o Claude lê em qualquer lugar do
+computador. A cópia dele está em `eu/claude-do-computador.md`.
+
+## No dia a dia
+
+- Abro esta pasta no VS Code e converso com o Claude. Não preciso abrir nem editar as anotações.
+- Mudou alguma coisa (card novo, grade nova)? Falo: "mudei de card, atualiza".
+- O Claude fez algo de que eu não gostei? Falo: "não faz mais isso". Ele anota a regra.
+- No fim, `/salvar` guarda tudo no meu GitHub.
 
 ## Num computador novo
 
